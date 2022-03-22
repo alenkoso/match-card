@@ -1,0 +1,130 @@
+.bg-image {
+    /* Location of the image */
+    background-image: url(assets/backgrounds/bg-prematch.jpg);
+
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#b9b6b6;
+
+    /*Background effects*/
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    filter: brightness(50%);
+  }
+  
+  /* Reset */
+  html, body, h1, p, a, div, section {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+
+  .content, header, main, footer {
+    display: flex;
+  }
+  
+  /* Basic */
+  body { 
+    font: 24px/40px "Open Sans", sans-serif;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  header {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header > div {
+    text-align: center;
+  }
+
+  main {
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .vs-info {
+    text-align: center;
+    line-height: 20%;
+  }
+    
+  h1 {
+    color: #efecec;
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
+  h2 {
+    color: #efecec;
+    font-size: 3vw;
+    font-weight: 200;
+    margin-top: 7vh;
+    text-transform: none;
+  }
+
+  h3 {
+    font-size: 4vw;
+    font-weight: bolder;
+  }
+  h4 {
+    font-size: 3vw;
+    font-weight: lighter;
+  }
+
+  footer {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* First span inside a footer tag */
+  footer > span {
+    border-radius: 20px;
+    background-color: gray;
+    padding: 0 50px;
+    display: inline-block;
+    font-size: 1.5vw;
+  }
+
+  .flag-container {
+    text-align: center;
+  }
+
+  .flag {
+    border-color: #0264c0;
+    border-style: double;
+    width: 21vw;
+  }
+
+  .country {
+    text-align: center;
+    font-size: 2vw;
+  }
