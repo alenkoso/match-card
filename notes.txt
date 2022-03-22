@@ -1,0 +1,19 @@
+`./` - Our project source folder.
+
+- `/assets/` - Folder with assets needed for this project.
+  - `/src/assets/backgrounds` - Folder with 4 background images (one full-size, one 870px, one 450px, and one 320px).
+  - `/src/assets/flags` - Folder with 2 images of flags (German and Italian).
+- `index.html` - Our homepage.
+- `style.css` - Main style sheet.
+- `responsive.css` - A separate style sheet for smaller devices.
+
+
+Known issues:
+The page is not completely design proof, nor entirely mobile friendly.
+The latter could be fixed with modifying the responsive.css and possibly creating a separate mobileDeviceFriendly.html file, 
+where all the divs in flex would be directioned into rows and not columns.
+
+Fonts could also be fixed / replaced with some which are a bit more appropriate.
+
+In the future I could have also created a translations file and use the strings / translations in it across the whole webpage instead of hardcoding everything.
+
